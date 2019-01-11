@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal" android:background="@drawable/gradiant_color">
+
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" tools:srcCompat="@drawable/natasha" android:id="@+id/actorimage"
+            android:layout_weight="1"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+        <TextView
+                android:text="Actor Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/lblActorName" android:paddingLeft="15dp"
+                android:textSize="20sp" android:textAllCaps="true" android:textStyle="bold|italic"
+                android:textAlignment="viewEnd"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/lblActorDes" android:paddingLeft="15dp"
+                android:textStyle="italic" android:textSize="15sp"/>
+    </LinearLayout>
+</LinearLayout>
